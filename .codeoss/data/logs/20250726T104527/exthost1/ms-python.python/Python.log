@@ -1,0 +1,5 @@
+2025-07-26 10:45:48.582 [warning] Dir "/home/jhapratik0909/.pixi/envs" is not watchable (directory does not exist)
+2025-07-26 10:45:48.638 [info] Python interpreter path: /bin/python
+2025-07-26 10:46:10.245 [info] > pyenv which python
+2025-07-26 10:46:10.245 [info] cwd: .
+2025-07-26 10:46:13.575 [info] Starting Jedi language server for jhapratik0909.

@@ -1,0 +1,10 @@
+2025-07-25 20:28:39.731 [info] 
+
+
+
+
+2025-07-25 20:28:39.782 [info] Extension host agent started.
+2025-07-25 20:28:42.406 [info] [127.0.0.1][dd9b35bb][ManagementConnection] New connection established.
+2025-07-25 20:28:42.492 [info] [127.0.0.1][df57c891][ExtensionHostConnection] New connection established.
+2025-07-25 20:28:43.383 [info] [127.0.0.1][df57c891][ExtensionHostConnection] <1237> Launched Extension Host Process.
+2025-07-25 20:59:46.127 [info] [127.0.0.1][dd9b35bb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

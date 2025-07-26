@@ -1,0 +1,9 @@
+2025-07-25 07:27:51.065 [info] 
+
+
+
+
+2025-07-25 07:27:51.065 [info] Extension host agent started.
+2025-07-25 07:27:57.347 [info] [127.0.0.1][2be2b6a6][ManagementConnection] New connection established.
+2025-07-25 07:27:57.350 [info] [127.0.0.1][ec1763dd][ExtensionHostConnection] New connection established.
+2025-07-25 07:27:58.162 [info] [127.0.0.1][ec1763dd][ExtensionHostConnection] <1251> Launched Extension Host Process.

@@ -1,0 +1,13 @@
+2025-07-25 20:28:51.309 [warning] Dir "/home/jhapratik0909/.pixi/envs" is not watchable (directory does not exist)
+2025-07-25 20:28:51.323 [info] > pyenv which python
+2025-07-25 20:28:51.323 [info] cwd: .
+2025-07-25 20:28:51.429 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2025-07-25 20:28:51.552 [info] Python interpreter path: /bin/python
+2025-07-25 20:28:53.730 [info] Starting Jedi language server for jhapratik0909.
+2025-07-25 20:51:20.608 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 20:51:25.691 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 20:51:30.640 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 20:51:31.958 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 20:51:34.527 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 20:51:36.749 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 20:51:37.769 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py

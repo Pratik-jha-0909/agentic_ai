@@ -1,0 +1,29 @@
+2025-07-25 14:05:59.304 [info] Extension host with pid 1230 started
+2025-07-25 14:05:59.332 [error] Error: EEXIST: file already exists, open '/home/jhapratik0909/.codeoss/data/User/workspaceStorage/-51586f75/vscode.lock'
+2025-07-25 14:05:59.349 [info] Lock '/home/jhapratik0909/.codeoss/data/User/workspaceStorage/-51586f75/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-07-25 14:05:59.350 [info] Lock '/home/jhapratik0909/.codeoss/data/User/workspaceStorage/-51586f75/vscode.lock': The pid 1251 appears to be gone.
+2025-07-25 14:05:59.350 [info] Lock '/home/jhapratik0909/.codeoss/data/User/workspaceStorage/-51586f75/vscode.lock': Deleting a stale lock.
+2025-07-25 14:05:59.355 [info] Lock '/home/jhapratik0909/.codeoss/data/User/workspaceStorage/-51586f75/vscode.lock': Lock acquired.
+2025-07-25 14:05:59.497 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-25 14:05:59.499 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-07-25 14:05:59.499 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-25 14:05:59.499 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-25 14:05:59.500 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-25 14:05:59.501 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-07-25 14:06:00.266 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-25 14:06:00.502 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-25 14:06:00.889 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-25 14:06:00.889 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-25 14:06:00.990 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onCommand:cloudcode.gemini.chatView.focus'
+2025-07-25 14:06:03.596 [info] Eager extensions activated
+2025-07-25 14:06:03.596 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 14:06:03.603 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 14:06:03.609 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 14:06:50.521 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-07-25 14:06:50.554 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-07-25 14:06:57.972 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-07-25 14:07:08.733 [error] unauthorized. cloudshell.authorize {"value":"google.cloud-shell","_lower":"google.cloud-shell"}
+2025-07-25 14:37:31.746 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'

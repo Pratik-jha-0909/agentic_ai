@@ -1,0 +1,8 @@
+2025-07-25 07:28:02.696 [warning] Dir "/home/jhapratik0909/.pixi/envs" is not watchable (directory does not exist)
+2025-07-25 07:28:02.834 [info] Python interpreter path: /bin/python
+2025-07-25 07:28:02.984 [info] > pyenv which python
+2025-07-25 07:28:02.985 [info] cwd: .
+2025-07-25 07:28:05.533 [info] Starting Jedi language server for jhapratik0909.
+2025-07-25 07:29:30.796 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 07:29:32.555 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/raseed-webhook/main.py
+2025-07-25 07:35:48.868 [info] Discover tests for workspace name: jhapratik0909 - uri: /home/jhapratik0909/.vscode/settings.json

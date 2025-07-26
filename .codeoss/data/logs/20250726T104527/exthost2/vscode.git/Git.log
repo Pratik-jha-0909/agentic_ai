@@ -1,0 +1,261 @@
+2025-07-26 11:45:52.950 [info] [main] Log level: Info
+2025-07-26 11:45:52.950 [info] [main] Validating found git in: "git"
+2025-07-26 11:45:52.950 [info] [main] Using git "2.43.0" from "git"
+2025-07-26 11:45:52.950 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-26 11:45:52.950 [info] > git rev-parse --show-toplevel [9ms]
+2025-07-26 11:45:52.951 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-07-26 11:45:52.951 [info] [Model][openRepository] Opened repository: /home/jhapratik0909
+2025-07-26 11:45:52.952 [info] > git config --get commit.template [6ms]
+2025-07-26 11:45:52.953 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-26 11:45:52.959 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:45:52.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-26 11:45:52.963 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:45:52.974 [info] > git rev-parse --show-toplevel [12ms]
+2025-07-26 11:45:52.987 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-07-26 11:45:52.989 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-26 11:45:52.999 [info] > git status -z -uall [31ms]
+2025-07-26 11:45:52.999 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-26 11:45:53.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [380ms]
+2025-07-26 11:45:53.423 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:45:53.424 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-07-26 11:45:53.433 [info] > git config --get commit.template [45ms]
+2025-07-26 11:45:53.434 [info] > git rev-parse --show-toplevel [51ms]
+2025-07-26 11:45:53.451 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:45:53.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-07-26 11:45:53.463 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:45:53.471 [info] > git rev-parse --show-toplevel [26ms]
+2025-07-26 11:45:53.479 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-07-26 11:45:53.480 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-26 11:45:53.486 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-26 11:45:53.492 [info] > git status -z -uall [25ms]
+2025-07-26 11:45:53.516 [info] > git rev-parse --show-toplevel [26ms]
+2025-07-26 11:45:53.522 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-26 11:45:53.523 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-26 11:45:53.904 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-26 11:45:54.118 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [28ms]
+2025-07-26 11:45:54.118 [info] fatal: bad revision 'refs/heads/main'
+2025-07-26 11:45:54.119 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-07-26 11:45:54.611 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-26 11:46:01.453 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:46:01.456 [info] > git config --get commit.template [16ms]
+2025-07-26 11:46:01.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-07-26 11:46:01.458 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:46:01.482 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-26 11:46:01.495 [info] > git status -z -uall [27ms]
+2025-07-26 11:46:06.612 [info] > git config --get commit.template [45ms]
+2025-07-26 11:46:06.614 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:46:06.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2025-07-26 11:46:06.643 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:46:06.779 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-07-26 11:46:06.814 [info] > git status -z -uall [124ms]
+2025-07-26 11:46:11.936 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:46:11.937 [info] > git config --get commit.template [10ms]
+2025-07-26 11:46:11.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 11:46:11.938 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:46:11.957 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 11:46:11.967 [info] > git status -z -uall [21ms]
+2025-07-26 11:46:57.186 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:46:57.187 [info] > git config --get commit.template [8ms]
+2025-07-26 11:46:57.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-07-26 11:46:57.191 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:46:57.205 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 11:46:57.217 [info] > git status -z -uall [19ms]
+2025-07-26 11:47:02.927 [info] > git show --textconv :raseed-webhook/main.py [19ms]
+2025-07-26 11:47:02.927 [info] > git show --textconv HEAD:raseed-webhook/main.py [13ms]
+2025-07-26 11:47:02.927 [info] > git ls-files --stage -- raseed-webhook/main.py [7ms]
+2025-07-26 11:47:02.940 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [8ms]
+2025-07-26 11:47:02.941 [info] > git ls-tree -l HEAD -- raseed-webhook/main.py [15ms]
+2025-07-26 11:47:02.941 [info] fatal: Not a valid object name HEAD
+2025-07-26 11:47:02.947 [info] > git hash-object -t tree /dev/null [9ms]
+2025-07-26 11:47:02.947 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/jhapratik0909/raseed-webhook/main.py.git?%7B%22path%22%3A%22%2Fhome%2Fjhapratik0909%2Fraseed-webhook%2Fmain.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-07-26 11:47:02.960 [info] > git hash-object -t tree /dev/null [14ms]
+2025-07-26 11:47:02.960 [warning] [GitFileSystemProvider][stat] File not found - git:/home/jhapratik0909/raseed-webhook/main.py.git?%7B%22path%22%3A%22%2Fhome%2Fjhapratik0909%2Fraseed-webhook%2Fmain.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-07-26 11:47:03.060 [info] > git ls-files --stage -- raseed-webhook/main.py [2ms]
+2025-07-26 11:47:03.068 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]
+2025-07-26 11:47:03.159 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 11:48:27.186 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:48:27.187 [info] > git config --get commit.template [6ms]
+2025-07-26 11:48:27.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 11:48:27.188 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:48:27.201 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 11:48:27.216 [info] > git status -z -uall [23ms]
+2025-07-26 11:48:32.261 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 11:48:32.267 [info] > git config --get commit.template [7ms]
+2025-07-26 11:48:32.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 11:48:32.268 [warning] [Git][getBranch] No such branch: main
+2025-07-26 11:48:32.281 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 11:48:32.295 [info] > git status -z -uall [21ms]
+2025-07-26 12:19:17.825 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:19:17.830 [info] > git config --get commit.template [7ms]
+2025-07-26 12:19:17.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:19:17.831 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:19:17.844 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:19:17.861 [info] > git status -z -uall [25ms]
+2025-07-26 12:19:22.897 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:19:22.902 [info] > git config --get commit.template [6ms]
+2025-07-26 12:19:22.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:19:22.903 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:19:22.915 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:19:22.929 [info] > git status -z -uall [20ms]
+2025-07-26 12:19:46.792 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:19:46.793 [info] > git config --get commit.template [7ms]
+2025-07-26 12:19:46.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:19:46.794 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:19:46.806 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:19:46.821 [info] > git status -z -uall [23ms]
+2025-07-26 12:20:00.052 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:20:00.053 [info] > git config --get commit.template [7ms]
+2025-07-26 12:20:00.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:20:00.054 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:20:00.067 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:20:00.083 [info] > git status -z -uall [24ms]
+2025-07-26 12:20:19.001 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:20:19.002 [info] > git config --get commit.template [6ms]
+2025-07-26 12:20:19.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:20:19.003 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:20:19.017 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:20:19.031 [info] > git status -z -uall [23ms]
+2025-07-26 12:20:27.096 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:20:27.096 [info] > git config --get commit.template [6ms]
+2025-07-26 12:20:27.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:20:27.097 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:20:27.111 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:20:27.125 [info] > git status -z -uall [23ms]
+2025-07-26 12:20:33.402 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:20:33.402 [info] > git config --get commit.template [5ms]
+2025-07-26 12:20:33.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-07-26 12:20:33.403 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:20:33.416 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:20:33.429 [info] > git status -z -uall [21ms]
+2025-07-26 12:20:40.073 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:20:40.074 [info] > git config --get commit.template [6ms]
+2025-07-26 12:20:40.075 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:20:40.075 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:20:40.087 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:20:40.099 [info] > git status -z -uall [20ms]
+2025-07-26 12:20:45.132 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:20:45.132 [info] > git config --get commit.template [6ms]
+2025-07-26 12:20:45.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:20:45.133 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:20:45.145 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:20:45.158 [info] > git status -z -uall [20ms]
+2025-07-26 12:21:24.434 [info] > git check-ignore -v -z --stdin [3ms]
+2025-07-26 12:21:42.106 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:21:42.106 [info] > git config --get commit.template [6ms]
+2025-07-26 12:21:42.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:21:42.107 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:21:42.120 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:21:42.133 [info] > git status -z -uall [21ms]
+2025-07-26 12:21:45.927 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-26 12:21:56.362 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:21:56.363 [info] > git config --get commit.template [6ms]
+2025-07-26 12:21:56.364 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:21:56.364 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:21:56.378 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-26 12:21:56.390 [info] > git status -z -uall [21ms]
+2025-07-26 12:22:01.435 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:22:01.436 [info] > git config --get commit.template [6ms]
+2025-07-26 12:22:01.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:22:01.437 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:22:01.450 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:22:01.463 [info] > git status -z -uall [21ms]
+2025-07-26 12:26:48.781 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:26:48.782 [info] > git config --get commit.template [6ms]
+2025-07-26 12:26:48.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-07-26 12:26:48.783 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:26:48.796 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:26:48.810 [info] > git status -z -uall [23ms]
+2025-07-26 12:26:53.853 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:26:53.853 [info] > git config --get commit.template [6ms]
+2025-07-26 12:26:53.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:26:53.854 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:26:53.867 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:26:53.879 [info] > git status -z -uall [20ms]
+2025-07-26 12:26:58.910 [info] [Git][getRemotes] No remotes found in the git config file
+2025-07-26 12:26:58.911 [info] > git config --get commit.template [6ms]
+2025-07-26 12:26:58.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:26:58.912 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:26:58.925 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:26:58.939 [info] > git status -z -uall [21ms]
+2025-07-26 12:26:59.623 [info] > git ls-files --stage -- raseed-webhook/main.py [3ms]
+2025-07-26 12:26:59.633 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [3ms]
+2025-07-26 12:27:03.157 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 12:27:08.210 [info] > git ls-files --stage -- raseed-webhook/main.py [3ms]
+2025-07-26 12:27:08.217 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]
+2025-07-26 12:27:08.526 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 12:27:17.318 [info] > git ls-files --stage -- raseed-webhook/main.py [4ms]
+2025-07-26 12:27:17.327 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [3ms]
+2025-07-26 12:27:17.627 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 12:27:24.697 [info] > git ls-files --stage -- raseed-webhook/main.py [3ms]
+2025-07-26 12:27:24.703 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]
+2025-07-26 12:27:24.934 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 12:27:27.609 [info] > git config --get commit.template [6ms]
+2025-07-26 12:27:27.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:27:27.610 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:27:27.622 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:27:27.638 [info] > git status -z -uall [22ms]
+2025-07-26 12:28:03.605 [info] > git config --get commit.template [6ms]
+2025-07-26 12:28:03.606 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:28:03.606 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:28:03.619 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:28:03.633 [info] > git status -z -uall [22ms]
+2025-07-26 12:28:08.674 [info] > git config --get commit.template [6ms]
+2025-07-26 12:28:08.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:28:08.675 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:28:08.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:28:08.701 [info] > git status -z -uall [21ms]
+2025-07-26 12:28:12.543 [info] > git ls-files --stage -- raseed-webhook/main.py [3ms]
+2025-07-26 12:28:12.550 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]
+2025-07-26 12:28:12.644 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 12:28:18.217 [info] > git config --get commit.template [6ms]
+2025-07-26 12:28:18.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:28:18.218 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:28:18.231 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:28:18.247 [info] > git status -z -uall [24ms]
+2025-07-26 12:28:28.212 [info] > git config --get commit.template [5ms]
+2025-07-26 12:28:28.212 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-07-26 12:28:28.213 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:28:28.225 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-26 12:28:28.238 [info] > git status -z -uall [21ms]
+2025-07-26 12:28:33.270 [info] > git config --get commit.template [5ms]
+2025-07-26 12:28:33.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-07-26 12:28:33.271 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:28:33.283 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:28:33.297 [info] > git status -z -uall [21ms]
+2025-07-26 12:29:06.058 [info] > git config --get commit.template [6ms]
+2025-07-26 12:29:06.059 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:29:06.059 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:29:06.073 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:29:06.087 [info] > git status -z -uall [23ms]
+2025-07-26 12:29:24.957 [info] > git config --get commit.template [6ms]
+2025-07-26 12:29:24.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-07-26 12:29:24.958 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:29:24.972 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:29:24.985 [info] > git status -z -uall [21ms]
+2025-07-26 12:29:30.024 [info] > git config --get commit.template [7ms]
+2025-07-26 12:29:30.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:29:30.025 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:29:30.038 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:29:30.051 [info] > git status -z -uall [21ms]
+2025-07-26 12:29:48.347 [info] > git ls-files --stage -- raseed-webhook/main.py [2ms]
+2025-07-26 12:29:48.354 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]
+2025-07-26 12:29:48.499 [info] > git show --textconv :raseed-webhook/main.py [3ms]
+2025-07-26 12:29:48.623 [info] > git ls-files --stage -- raseed-webhook/main.py [2ms]
+2025-07-26 12:29:48.630 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]
+2025-07-26 12:29:52.549 [info] > git config --get commit.template [6ms]
+2025-07-26 12:29:52.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-26 12:29:52.554 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:29:52.568 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-26 12:29:52.579 [info] > git status -z -uall [20ms]
+2025-07-26 12:29:57.623 [info] > git config --get commit.template [6ms]
+2025-07-26 12:29:57.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-26 12:29:57.625 [warning] [Git][getBranch] No such branch: main
+2025-07-26 12:29:57.637 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-26 12:29:57.649 [info] > git status -z -uall [20ms]
+2025-07-26 12:30:01.605 [info] > git ls-files --stage -- raseed-webhook/main.py [3ms]
+2025-07-26 12:30:01.612 [info] > git cat-file -s b4a3341c8a258c1869f172f9ed42354881c94116 [2ms]

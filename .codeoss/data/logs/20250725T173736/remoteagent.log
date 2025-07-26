@@ -1,0 +1,10 @@
+2025-07-25 17:37:36.439 [info] 
+
+
+
+
+2025-07-25 17:37:36.460 [info] Extension host agent started.
+2025-07-25 17:37:39.202 [info] [127.0.0.1][27957a40][ManagementConnection] New connection established.
+2025-07-25 17:37:39.223 [info] [127.0.0.1][1d0a9149][ExtensionHostConnection] New connection established.
+2025-07-25 17:37:40.176 [info] [127.0.0.1][1d0a9149][ExtensionHostConnection] <1227> Launched Extension Host Process.
+2025-07-25 17:44:23.003 [info] [127.0.0.1][27957a40][ManagementConnection] The client has reconnected.
