@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raseed - Digital Wallet & Receipt Processing</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-wallet"></i> Raseed</h1>
+                <p>Digital Wallet & Receipt Processing Platform</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Navigation Tabs -->
+            <nav class="nav-tabs">
+                <button class="tab-btn active" data-tab="wallet">
+                    <i class="fas fa-credit-card"></i> Google Wallet
+                </button>
+                <button class="tab-btn" data-tab="receipt">
+                    <i class="fas fa-receipt"></i> Receipt Processing
+                </button>
+                <button class="tab-btn" data-tab="chat">
+                    <i class="fas fa-comments"></i> AI Chat
+                </button>
+            </nav>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Google Wallet Tab -->
+                <div id="wallet" class="tab-pane active">
+                    <div class="card">
+                        <h2><i class="fas fa-plus-circle"></i> Create Loyalty Class</h2>
+                        <form id="createClassForm" class="form">
+                            <div class="form-group">
+                                <label for="className">Class Name</label>
+                                <input type="text" id="className" name="class_name" value="Raseed Loyalty Program" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="programName">Program Name</label>
+                                <input type="text" id="programName" name="program_name" value="Raseed Rewards" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="issuerName">Issuer Name</label>
+                                <input type="text" id="issuerName" name="issuer_name" value="Raseed Inc." required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Create Class
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h2><i class="fas fa-user-plus"></i> Create Digital Card</h2>
+                        <form id="createCardForm" class="form">
+                            <div class="form-group">
+                                <label for="userEmail">User Email</label>
+                                <input type="email" id="userEmail" name="email" placeholder="user@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="userName">User Name</label>
+                                <input type="text" id="userName" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="points">Points Balance</label>
+                                <input type="number" id="points" name="points" value="100" min="0" required>
+                            </div>
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-credit-card"></i> Create Card
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h2><i class="fas fa-list"></i> Recent Activity</h2>
+                        <div id="walletActivity" class="activity-list">
+                            <div class="activity-item">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Ready to create loyalty classes and digital cards</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Receipt Processing Tab -->
+                <div id="receipt" class="tab-pane">
+                    <div class="card">
+                        <h2><i class="fas fa-upload"></i> Upload Receipt</h2>
+                        <form id="uploadReceiptForm" class="form">
+                            <div class="form-group">
+                                <label for="receiptFile">Select Receipt (Image or PDF)</label>
+                                <input type="file" id="receiptFile" name="file" accept="image/*,.pdf" required>
+                                <div class="file-info">
+                                    <small>Supported formats: PNG, JPG, JPEG, GIF, PDF (Max 16MB)</small>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-upload"></i> Process Receipt
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h2><i class="fas fa-link"></i> Process from URL</h2>
+                        <form id="urlReceiptForm" class="form">
+                            <div class="form-group">
+                                <label for="receiptUrl">Receipt Image URL</label>
+                                <input type="url" id="receiptUrl" name="image_url" placeholder="https://example.com/receipt.jpg" required>
+                            </div>
+                            <button type="submit" class="btn btn-info">
+                                <i class="fas fa-download"></i> Process from URL
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h2><i class="fas fa-history"></i> Processing Results</h2>
+                        <div id="receiptResults" class="results-container">
+                            <div class="result-item">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Upload a receipt to see processing results</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Chat Tab -->
+                <div id="chat" class="tab-pane">
+                    <div class="card">
+                        <h2><i class="fas fa-robot"></i> AI Assistant</h2>
+                        <div class="chat-container">
+                            <div id="chatMessages" class="chat-messages">
+                                <div class="message bot">
+                                    <i class="fas fa-robot"></i>
+                                    <div class="message-content">
+                                        Hello! I'm your AI assistant. How can I help you today?
+                                    </div>
+                                </div>
+                            </div>
+                            <form id="chatForm" class="chat-input">
+                                <input type="text" id="chatInput" placeholder="Type your message..." required>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div id="loadingOverlay" class="loading-overlay hidden">
+            <div class="loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i>
+                <p>Processing...</p>
+            </div>
+        </div>
+
+        <!-- Notification -->
+        <div id="notification" class="notification hidden">
+            <i class="notification-icon"></i>
+            <span class="notification-message"></span>
+            <button class="notification-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
